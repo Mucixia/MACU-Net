@@ -5,7 +5,7 @@ import torch.nn as nn
 import numpy as np
 from argparse import ArgumentParser
 import torchvision
-from data_loader_HU import *
+from data_loader import *
 from model_MACU_SI_CMEM import * # type: ignore
 from solver_CT_MACU import Solver_CT
 ###########################################################################################
